@@ -1,0 +1,39 @@
+form{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    position: relative;
+    top: 30%;
+    margin-left: 60px;
+    z-index: ;
+}
+input{
+    padding: 30px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+input:focus{
+    outline: none;
+}
+input[type='submit']{
+    margin-top: 7px;
+    border-bottom: none;
+    background-color: darkolivegreen;
+}
+textarea{
+    padding: 30px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    resize: none;
+}
+textarea:focus{
+    outline: none;
+}
+
+@media (max-width:768px){
+    textarea{
+        width: 45vw;
+    }
+}

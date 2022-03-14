@@ -1,0 +1,96 @@
+.nav{
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+.nav-collections{
+    background-color: cadetblue;
+    background-image: linear-gradient( black , cadetblue); 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 10vh;
+    line-height: 10vh;
+    color: white;
+}
+.nav-item-collection{
+    width: 30vw;
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+}
+.logo{
+    font-weight: bold;
+    font-size: 30px;
+}
+.shooter{
+    margin-right: 2%;
+}
+.nav-home,.nav-about,.nav-contact{
+    border-left: 1px solid black;
+    width: 10vw;
+    text-align: center;   
+}
+.contacty:hover{
+    color: chocolate;
+}
+.abouty:hover{
+    color: chocolate;
+}
+.homy:hover{
+    color: chocolate;
+}
+.contacty:focus{
+    color: chocolate;
+}
+.abouty:focus{
+    color: chocolate;
+}
+.homy:focus{
+    color: chocolate;
+}
+.nav-contact{
+    border-right: 1px solid black;   
+}
+.homy,.contacty,.abouty{
+    text-decoration: none;
+    color: white;
+}
+
+/* smaller screen */
+
+.icon{
+    font-size: 50px;
+}
+a{
+    color: blanchedalmond;
+}
+
+@media (max-width:768px) {
+    .nav{
+        width: 100vw;
+    }
+}
+
+@media (max-width:425px)  {
+    .nav{
+        width: 100vw;
+    }
+    .hidden_menu{
+        width: 100vw;
+        height: 30vh;
+        background-color: white;
+        z-index: 100;
+    }
+    .small{
+        color: black !important;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .hider{
+        display: none;
+        z-index: 100;
+    }
+}

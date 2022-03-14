@@ -1,0 +1,9 @@
+.section_one > .port_p{
+    position: relative;
+    top: 150px;
+    margin-left: 10px;
+}
+
+.section_one > p > a{
+    color: black;
+}

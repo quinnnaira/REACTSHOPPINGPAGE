@@ -1,0 +1,21 @@
+footer{
+    background-image:linear-gradient(black, cadetblue);
+    height: 50px;
+    color: white;
+    line-height: 50px;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+}
+footer > div > a{
+    font-size: 30px;
+}
+.github {
+    color: black;
+}
+.twitter{
+    color: cadetblue;
+}
+.instagram{
+    color: crimson;
+}
